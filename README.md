@@ -1,4 +1,4 @@
-# Weather-Forecast
+# Weather Forecast 🌩️
 Esta aplicación nos permite ver el clima del día de hoy, más el extendido (5 días) de nuestra localización actual y la de 5 otras ciudades.
 
 ## Installation
@@ -38,6 +38,12 @@ En algunas ocasiones, bloqueadores de anuncios/publicidades como AdBlock pueden 
     <li><a href="https://reactjs.org/">React.JS</a></li>
     <li><a href="https://www.styled-components.com">Styled-components</a></li>
     <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+</ul>
+
+## APIs utilizadas
+<ul>
+    <li><a href="https://openweathermap.org/">Open Weather Map</a></li>
+    <li><a href="https://ip-api.com/">IP Geolocation API</a></li>
 </ul>
 
 ## Iconos utilizados

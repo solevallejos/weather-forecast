@@ -35,8 +35,6 @@ const Weather: FC<weatherProps> = ({ forecastData, isLoading, currentCity}): Rea
   const { timezone_offset, daily, current } = forecastData
   const { city, country } = currentCity
   const weatherArray = [current, ...daily]
-  console.log('daily', daily)
-  console.log('current', current)
 
   const setTemperatures = (item: any) => {
     if(item.temp.min) {

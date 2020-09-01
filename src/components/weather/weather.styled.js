@@ -20,7 +20,6 @@ export const CityInfo = styled.div`
   
   @media (max-width: 1200px) {
     flex-wrap: wrap;
-    justify-content: flex-start;
   }
   
   @media (max-width: 768px) {

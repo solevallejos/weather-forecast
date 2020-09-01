@@ -14,11 +14,12 @@ export const Container = styled.div`
   
   @media (max-width: 1200px) {
     padding: 2rem;
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 2rem);
   }
+  
   @media (max-width: 768px) {
     padding: 1.5rem;
-    height: calc(100vh - 3rem);
+    height: auto;
   }
 `
 

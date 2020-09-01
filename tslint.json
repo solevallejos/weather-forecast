@@ -1,0 +1,23 @@
+{
+  "defaultSeverity": "error",
+  "extends": [ "tslint:latest", "tslint-react", "tslint-config-prettier" ],
+  "jsRules": {},
+  "rules": {
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case",
+      "require-const-for-all-caps"
+    ],
+    "max-classes-per-file": false,
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false,
+    "interface-name": [ true, "never-prefix" ]
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": [ "node_modules/**" ]
+  }
+}

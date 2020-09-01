@@ -5,7 +5,7 @@ Esta aplicación nos permite ver el clima del día de hoy, más el extendido (5 
 Para clonar y utilizar esta aplicación, necesitamos Git y Node.js (el cual viene con npm) instalado en nuestra computadora. Luego, desde la terminal deberemos seguir los siguientes pasos :
 ```
 # Clonar el repositiorio:
-$ git clone git@github.com:solevallejos/weather.git
+$ git clone git@github.com:solevallejos/weather-forecast.git
 
 # Dirigirse al repositorio clonado
 $ cd weather

@@ -1,13 +1,13 @@
 import {MONTHS, WEEKDAYS} from "../constants"
 import {Clouds, Rain, Snow, Sun, Wind} from './../assets/img/weather/index'
 
-export const getDayMonth = (dt: number, timezone_offset: number) => {
-  let unixDate = new Date((dt + timezone_offset) * 1000)
+export const getDayMonth = (dt: number, timezoneOffset: number) => {
+  const unixDate = new Date((dt + timezoneOffset) * 1000)
   return unixDate.getDate() +  MONTHS[unixDate.getMonth()]
 }
 
-export const getDay = (dt: number, timezone_offset: number) => {
-  let newDate = new Date((dt + timezone_offset) * 1000)
+export const getDay = (dt: number, timezoneOffset: number) => {
+  const newDate = new Date((dt + timezoneOffset) * 1000)
   return WEEKDAYS[newDate.getDay()]
 }
 

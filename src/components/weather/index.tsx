@@ -36,6 +36,9 @@ const Weather: FC<weatherProps> = ({ forecastData, isLoading, currentCity}): Rea
   const { city, country } = currentCity
   const weatherArray = [current, ...daily]
 
+  console.log(weatherArray)
+
+
   const setTemperatures = (item: any) => {
     if(item.temp.min) {
       return (
@@ -54,8 +57,8 @@ const Weather: FC<weatherProps> = ({ forecastData, isLoading, currentCity}): Rea
       <CityContent>
       <CityName>{city}, {country}</CityName>
         <CityInfo>
-          {daily && weatherArray.slice(0, 6).map((item, index) => (
-          <DayInfo key={item.dt} transitionDelay={index}>
+          {weatherArray.slice(0, 6).map((item, index) => (
+          <DayInfo key={item.dt}>
             <DateContainer>
               <Weekday>{getDay(item.dt, timezone_offset)}</Weekday>
               <Date>{getDayMonth(item.dt, timezone_offset)}</Date>

@@ -58,8 +58,6 @@ export const DayInfo = styled.div`
   flex-direction: column;
   align-items: center;
   margin-right: 2rem;
-  transition: all ease-in 0.2s;
-  transition-delay: ${props => props.transitionDelay}s;
 
   &:last-of-type {
     margin-right: 0

@@ -1,7 +1,7 @@
 # Weather Forecast 🌩️
 Esta aplicación nos permite ver el clima del día de hoy, más el extendido (5 días) de nuestra localización actual y la de 5 otras ciudades.
 
-## Installation
+## Instalación
 Para clonar y utilizar esta aplicación, necesitamos Git y Node.js (el cual viene con npm) instalado en nuestra computadora. Luego, desde la terminal deberemos seguir los siguientes pasos :
 ```
 # Clonar el repositorio:
@@ -14,7 +14,7 @@ $ cd weather-forecast
 $ npm install
 
 ## Scripts disponibles
-In the project directory, you can run:
+En este proyecto deberemos utilizar:
 
 ### npm start
 Ejecuta la aplicación en modo desarrollo.
